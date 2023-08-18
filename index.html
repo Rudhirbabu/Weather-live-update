@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center flex-col gap-6">
+    <h2 class="text-3xl font-bold text-gray-800 text-center mt-20">Real-Time Weather APP</h2>
+
+    <input id="location-search" placeholder="Search by city" class="mt-10 w-96 p-2 rounded shadow border border-gray-500">
+    <button onclick="searchAndUpdateData()" class="px-4 py-2 rounded shadow text-white bg-green-400 hover:bg-green-600">Submit</button>
+	<p class="mt-[100px] text-9xl text-gray-800"><span id="temperature">30</span> <span class="text-5xl text-gray-400">&deg;C</span>
+    </p>
+    <script src="./index.js"></script>
+</body>
+</html> 
